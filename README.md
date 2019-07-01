@@ -10,6 +10,8 @@ Unter anderem werden folgende Daten heruntergeladen:
 - Dateibereiche
 - uvm
 
+Die Daten landen größtenteils in einer Datenbank namens `osca.db`. Man kann sie beispielsweise mit [SQLite Browser](https://sqlitebrowser.org/) anschauen.
+
 ## Benutzung:
 
 Auf der Kommandozeile kann `OscaDownloader` mit folgenden Parametern benutzt werden
@@ -35,6 +37,11 @@ Auf der Kommandozeile kann `OscaDownloader` mit folgenden Parametern benutzt wer
 3. Cookies anklicken
 4. Auf osca.hs-osnabrueck.de -> Cookies -> FedAuth klicken
 5. In der Kommandozeile mit `FedAuth=Inhalt` angeben
+
+## Statistiken
+Können leider noch nicht per CLI benutzt werden.
+Können im Code [hier](Osca/Services/Statistics/StatisticsService.cs) gefunden werden.
+
 ### Wie baue ich ein Release-Build?
 
 https://docs.microsoft.com/de-de/dotnet/core/deploying/deploy-with-cli
