@@ -13,7 +13,7 @@
     <PackageReference Include="CodeHollow.FeedReader" Version="1.1.6" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
-    <PackageReference Include="System.Security.Cryptography.Xml" Version="4.5.0" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="4.7.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\FilePath\" />
